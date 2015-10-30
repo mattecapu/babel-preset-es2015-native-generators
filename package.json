@@ -1,11 +1,11 @@
 {
-  "name": "babel-preset-es2015",
+  "name": "babel-preset-es2015-without-regenerator",
   "version": "6.0.11",
   "description": "",
-  "author": "Sebastian McKenzie <sebmck@gmail.com>",
+  "author": "Brennan Frydl <me@bfrydl.com>",
   "homepage": "https://babeljs.io/",
   "license": "MIT",
-  "repository": "babel/babel",
+  "repository": "bfrydl/babel-preset-es2015-without-regenerator",
   "main": "index.js",
   "dependencies": {
     "babel-plugin-transform-es2015-template-literals": "^6.0.2",
@@ -26,7 +26,6 @@
     "babel-plugin-transform-es2015-destructuring": "^6.0.2",
     "babel-plugin-transform-es2015-block-scoping": "^6.0.2",
     "babel-plugin-transform-es2015-typeof-symbol": "^6.0.2",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.2",
-    "babel-plugin-transform-regenerator": "^6.0.8"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.0.2"
   }
 }
