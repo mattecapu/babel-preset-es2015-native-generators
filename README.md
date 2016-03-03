@@ -1,11 +1,11 @@
-# babel-preset-es2015-without-regenerator
+# babel-preset-es2015-native-generators
 
-> Babel preset for all es2015 plugins except transform-regenerator
+> Babel preset for all es2015 plugins except transform-regenerator is replaced by transform-async-to-generator
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-es2015-without-regenerator
+$ npm install --save-dev babel-preset-es2015-native-generators
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-es2015-without-regenerator
 
 ```json
 {
-  "presets": ["es2015-without-regenerator"]
+  "presets": ["es2015-native-generators"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets es2015-without-regenerator
+$ babel script.js --presets es2015-native-generators
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015-without-regenerator"]
+  presets: ["es2015-native-generators"]
 });
 ```
